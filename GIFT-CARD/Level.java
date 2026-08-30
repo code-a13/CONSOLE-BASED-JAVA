@@ -1,0 +1,3 @@
+public enum Level {
+    BEGINNER,BRONZE,SILVER,GOLD,PLATINUM
+}
