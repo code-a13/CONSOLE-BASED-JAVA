@@ -12,4 +12,4 @@ COPY . /app
 RUN javac *.java
 
 # Start ttyd and execute SystemManager on the dynamically assigned PORT
-CMD ttyd -p ${PORT:-8080} java SystemManager
+CMD ttyd -p ${PORT:-8080} java Main
